@@ -1,0 +1,175 @@
+{
+   "Page":[
+        {
+            "RaportFileName": "Hello_world",
+            "RapDef": 
+            {
+                  "RaportName": "Hello world",
+                  "RaportFileName": "Hello_world",
+                  "PageOrientation": 1,
+                  "STICK_BAND_BOTTOM":0,
+                  "PageWidth1": 842,
+                  "PageHeight1": 595,
+                  "PageWidth": 2526,
+                  "PageHeight": 1785,
+                  "debug":0,
+                  "band": [
+                       {
+                            "typeBand":1,
+                            "name": "ReportBandTop",
+                            "Height": 477,
+                            "objBand":[
+                                {
+                                  "typeobj": 0,
+                                  "Name": "TitleRep",
+                                  "Caption": "Hello world",
+                                  "Top": 10,
+                                  "Align": 1,
+                                  "font":[{"size":35,"bold":1,"italic":0, "UnderLine":0}]
+                                },
+								{
+								  "typeobj": 0,
+								  "Name": "No1",
+								  "Caption": "No.  : $[PAGE_NO]$.",
+								  "Top": 90,
+								  "Left": 20,
+								  "font":[{"size":17,"bold":1,"italic":0, "UnderLine":0}]
+									}, 
+                                {
+                                  "typeobj": 0,
+                                  "Name": "U01",
+                                  "Caption": "A Hello, World! program is generally a simple computer program which outputs (or displays) to the screen (often the console) a message similar to Hello, World! ",
+                                  "Top": 210,
+                                  "Left": 20,
+                                  "font":[{"size":17,"bold":0,"italic":0, "UnderLine":1}]
+                                },
+                                {
+                                      "typeobj": 2,
+                                      "Name": "Box1", 
+                                      "PenWidth": 1,
+                                      "Top": 250,
+                                      "Left": 10,
+                                      "Width": 65,
+                                      "Height":193,
+                                      "Caption": "No.",
+                                      "Align": 1,
+                                      "font":[{"size":15,"bold":0,"italic":0, "UnderLine":0}]
+                                },
+                                {
+                                      "typeobj": 2,
+                                      "Name": "Box2", 
+                                      "PenWidth": 1,
+                                      "Top": 442,
+                                      "Left": 10,
+                                      "Width": 65,
+                                      "Height":35,
+                                      "Align":1,
+                                      "Caption": "1",
+                                      "font":[{"size":15,"bold":0,"italic":0, "UnderLine":0}]
+                                },
+                                {
+                                      "typeobj": 2,
+                                      "Name": "Box3", 
+                                      "PenWidth": 1,
+                                      "Top": 250,
+                                      "Left": 74,
+                                      "Width": 125,
+                                      "Height":193,
+                                      "Caption": "Hello,\n World\n World",
+                                      "Align": 1,
+                                      "font":[{"size":15,"bold":0,"italic":0, "UnderLine":0}]
+                                },
+                                {
+                                      "typeobj": 2,
+                                      "Name": "Box4", 
+                                      "PenWidth": 1,
+                                      "Top": 442,
+                                      "Left": 74,
+                                      "Width": 125,
+                                      "Height":35,
+                                      "Caption": "2",
+                                      "Align": 1,
+                                      "font":[{"size":15,"bold":0,"italic":0, "UnderLine":0}]
+                                }
+                            ]
+                       },
+					   {
+						   "typeBand":2,
+							"name": "DetailBand_1",
+							"Height": 100,
+							"objBand":[
+							    
+							    {
+								  "typeobj": 2,
+								  "Name": "Box4",
+								  "PenWidth": 1,
+								  "Top": 0,
+								  "Left": 10,
+								  "Width": 65,
+								  "Height":40,
+								  "Caption": "100",
+								  "AutoSizeH":1,
+								  "Align":1,
+								  "font":[{"size":14,"bold":0,"italic":0, "UnderLine":0}]
+							    },
+							    {
+								  "typeobj": 2,
+								  "Name": "Box5", 
+								  "PenWidth": 1,
+								  "Top": 0,
+								  "Left": 74,
+								  "Width": 125,
+								  "Height":40, 
+								  "Caption": "Hello,\n World\n World",
+								  "AutoSizeH":1,
+								  "Align":0,
+								  "font":[{"size":14,"bold":0,"italic":0, "UnderLine":0}]
+							    }
+							]
+					   },
+					   {
+						   "typeBand":2,
+							"name": "DetailBand_2",
+							"Height": 250,
+							"objBand":[
+							 
+							    {
+								  "typeobj": 2,
+								  "Name": "Box5", 
+								  "PenWidth": 1,
+								  "Top": 0,
+								  "Left": 74,
+								  "Width": 1200,
+								  "Height":250, 
+								  "Caption": "A Hello, World! program is generally a simple computer program which outputs (or displays) to \nthe screen (often the console) a message similar to  Hello, World!  \nwhile ignoring any user input. A small piece of code in most general-purpose programming \nlanguages, this program is used to illustrate a language's basic syntax. A  Hello, World!  \nprogram is often the first written by a student of a new programming language,[1] but such a \nprogram can also be used as a sanity check to ensure that the computer software intended to \ncompile or run source code is correctly installed, and that its operator understands how to use it.",
+								  "AutoSizeH":1,
+								  "Align":0,
+								  "font":[{"size":17,"bold":1,"italic":1, "UnderLine":0}]
+							    }
+							]
+					   },
+					   {
+						   "typeBand":4,
+							"name": "PageBandBottom",
+							"Height": 450,
+							"objBand":[
+							   {
+								  "typeobj": 2,
+								  "Name": "Box5", 
+								  "PenWidth": 0,
+								  "Top": 0,
+								  "Left": 274,
+								  "Width": 1700,
+								  "Height":440, 
+								  "Caption": "A Hello, World! program is generally a simple computer program which outputs (or displays) to \nthe screen (often the console) a message similar to  Hello, World!  \nwhile ignoring any user input. A small piece of code in most general-purpose programming \nlanguages, this program is used to illustrate a language's basic syntax. A  Hello, World!  \nprogram is often the first written by a student of a new programming language,[1] but such a \nprogram can also be used as a sanity check to ensure that the computer software intended to \ncompile or run source code is correctly installed, and that its operator understands how to use it.",
+								  "AutoSizeH":0,
+								  "Align":2,
+								  "font":[{"size":26,"bold":0,"italic":1, "UnderLine":1}]
+							    }
+							]
+					   }
+                  ]
+            } 
+        }
+    ]
+}
