@@ -1,4 +1,4 @@
-jSPDF is a simple report generator. 
+jToPDF is a simple report generator. 
 
 The Preparing report class transforms a JSON file into a PDF file.
 You can also use a database as a data source.
